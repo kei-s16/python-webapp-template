@@ -16,6 +16,7 @@ Python(FastAPI + SQLAlchemy)とreactで雑にWebアプリ作るための私的�
 ```
 cp .env.example .env
 docker-compose build
+docker-compose up -d
 ```
 
 ### 起動
@@ -32,8 +33,8 @@ docker-compose build
 
 ## URL
 React
-`http://localhost/`
+- `http://localhost/`
 
 API
-`http://localhost/api/hogehoge`
-`http://localhost/docs`
+- `http://localhost/api/hogehoge`
+- `http://localhost/docs`
